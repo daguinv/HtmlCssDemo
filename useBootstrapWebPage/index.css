@@ -1,0 +1,118 @@
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.about-left{
+    background: url(./images/ab.jpg) no-repeat center;
+    height: 642px;
+    background-size: cover;
+}
+.about-contain{
+    padding: 20px;
+}
+.about-contain h2{
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+}
+.about-contain h5{
+    font-size: 11px;
+    font-weight: 400;
+    color: #33cc99;
+    text-transform: uppercase;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px solid #cec8c8;
+    margin: 0px 0px 15px 0px;
+    letter-spacing: 4px;
+}
+.about-contain p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #838383;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.about-contain span{
+    font-weight: 600;
+    font-style: italic;
+    color: #ef5734;
+    font-size: 10px;
+    line-height: 20px;
+}
+.gallery-title h3{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 100px;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.gallery-photo a{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+.gallery-photo img{ 
+    width: 100%;
+}
+.gallery-photo .trans{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51, 204, 153, 0.83);
+    transform: scale(0);
+    transition: all 1s;
+}
+.gallery-photo a:hover .trans{
+    transform: scale(1);
+}
+.gallery-photo .trans p{
+    margin-top: 30%;
+    background-color: #000;
+    text-align: center;
+    padding: 3px 0px;
+    font-size: 30px;
+    color: #fff;   
+}
+.col-xs-12, .col-sm-6, .col-md-4, .col-lg-3{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.fotter{
+    background: url('./images/banner.jpg');
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    padding-top: 150px;
+}
+.fotter .gly{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+}
+.fotter ul{
+    list-style: none;
+    text-align: center;
+}
+.fotter ul li{
+    display: inline-block;
+    background-color: #fff;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    margin-right: 30px;
+}
+.fotter ul li span{
+    color: #1da1f2;
+    font-size: 15px;
+}
+.fotter .text{
+    text-align: center;
+    color: #fff;
+}
