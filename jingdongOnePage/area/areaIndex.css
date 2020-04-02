@@ -1,0 +1,57 @@
+#location{
+    position: relative;
+}
+
+#location .areaContent{
+    margin-left: 5px;
+}
+#location .nowArea{
+    width: 100%;
+    height: 100%;
+    margin-top: 7px;
+    color: #999;
+    cursor: pointer;
+ 
+}
+#location .nowArea span{
+    position: absolute;
+}
+#location img{
+    width: 20px;
+    height: 20px;
+}
+#location .itemList{
+    display: none;
+    position: absolute;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    z-index: 999999999;
+    padding: 10px;
+    margin-left: -4px;
+ 
+}
+#location:hover .itemList{
+    display: block;
+}
+#location .itemList .item{
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    padding: 3px 8px;
+    text-align: center;
+    line-height: 20px;
+    margin: 5px;
+}
+#location .itemList .item a{
+    color: #999999;
+}
+/* #location .itemList .item:hover{
+    background-color: rgb(233, 227, 227);
+}
+#location .itemList .item:hover a{
+    color: red;
+} */
+#location .itemList .active{
+    background-color: #f10215;
+    
+}
